@@ -4519,7 +4519,7 @@ void generateFellowAdventurer()
                     j = rand_range(BOLT_TELEPORT, BOLT_SPARK);
                     // Lots of cool bolts but we want to forbid some of them
                 } while (j == BOLT_POLYMORPH || j == BOLT_TUNNELING || j == BOLT_FORCE || j == BOLT_DOMINATION ||
-                         j == BOLT_PLENTY || j == BOLT_EMPOWERMENT || j == BOLT_ENTRANCEMENT || j == BOLT_SPIDERWEB);
+                         j == BOLT_PLENTY || j == BOLT_EMPOWERMENT || j == BOLT_ENTRANCEMENT || j == BOLT_SPIDERWEB || j == BOLT_OBSTRUCTION);
 
                 for (k = 0; k <= i; k++)
                 {
