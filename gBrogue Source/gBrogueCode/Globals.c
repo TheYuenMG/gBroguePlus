@@ -1819,7 +1819,7 @@ creatureType monsterCatalog[NUMBER_MONSTER_KINDS] = {
 	{0,	"adventurer",	PLAYER_CHAR,	&white,30,	0,		100,	{1, 2, 1},		20,	100,	100,	DF_RED_BLOOD,	0,		0,		0,              {0},
 		(MONST_MALE | MONST_FEMALE | MONST_NO_POLYMORPH | MONST_CARRY_ITEM_100 | MONST_DISTANT_FOLLOWER | MONST_WILL_NOT_USE_STAIRS | MONST_CAST_SPELLS_SLOWLY)},
 
-	{0, "rat",			'r',	&gray,			6,		0,		80,		{1, 3, 1},		20,	90,	100,	DF_RED_BLOOD,	0,		1,		DF_URINE,       {0}},
+	{0, "rat",			'r',	&gray,			6,		0,		80,		{1, 3, 1},		20,	100,	100,	DF_RED_BLOOD,	0,		1,		DF_URINE,       {0}},
 	{0, "kobold",		'k',	&goblinColor,	7,		0,		80,		{1, 4, 1},		20,	100,	100,	DF_RED_BLOOD,	0,		0,		0,              {0}},
 	{0,	"jackal",		'j',	&jackalColor,	8,		0,		70,		{2, 4, 1},		20,	50,		100,	DF_RED_BLOOD,	0,		1,		DF_URINE,              {0}},
 	{0,	"eel",			'e',	&eelColor,		18,		27,		100,	{3, 7, 2},		5,	50,		100,	0,              0,		0,		0,              {0},
