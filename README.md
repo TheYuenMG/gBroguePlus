@@ -6,9 +6,12 @@ The intention is to begin by providing some bug fixes and minor gameplay changes
 The philosophy will be to make frequent changes when we can work them out. If you can fix one small tiny thing it's worth fixing! Also if anyone who knows C and how to compile it wants to take this over on their own repo, that will be welcome.
 
 ___
-Changes from gBrogue for v1.0.0.001:
-Removed obstruction from the list of bolts that the Adventurer can have.
-(That's it! Everyone hates when the Adventurer has obstruction.)
+
+Changes from gBrogue
+- Removed obstruction from the list of bolts that the Adventurer can have.
+  - That's it! Everyone hates when the Adventurer has obstruction.
+- Modify creature stats
+  - Rat - move speed 90 -> 100 (Brogue CE), modify description
 
 # gBrogue (v1.18.02.11)
 gBrogue: A community-driven fork of Brogue
@@ -137,4 +140,3 @@ Changes since last version of gBrogue –
 
 To do:
  * Fix warnings in code.
- 
