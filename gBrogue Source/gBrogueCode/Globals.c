@@ -2351,7 +2351,7 @@ const mutation mutationCatalog[NUMBER_MUTATORS] = {
     //Title         textColor       healthFactor    moveSpdMult attackSpdMult   defMult damMult DF% DFtype  light   monstFlags  abilityFlags    forbiddenFlags      forbiddenAbilities
     {"hallucinogenic",     &pinkJellyColor,        100,         100,         100,            100,     75,     -1, 0,      0,      (0), (MA_HIT_HALLUCINATE), (MONST_MAINTAINS_DISTANCE), 0,
         "A rare mutation has bestowed $HIMHER chemical makeup with a light touch of pantherine, causing $HIMHER to induce hallucinations on attack."},
-    {"floating",     &telepathyColor,        100,         75,         75,            100,     100,     -1, 0,      0,      (MONST_FLIES|MONST_FLITS), (0), (MONST_FLIES|MONST_SUBMERGES|MONST_INVISIBLE),
+    {"floating",     &telepathyColor,        100,         75,         75,            100,     100,     -1, 0,      0,      (MONST_FLIES|MONST_FLITS), (0), (MONST_FLIES|MONST_SUBMERGES|MONST_INVISIBLE), 0,
         "An unseen force causes $HIMHER to levitate, allowing $HIMHER to float over pits and lava at the cost of some navigational ability."},
     {"explosive",   &orange,        50,             100,        100,            50,     100,    0,  DF_MUTATION_EXPLOSION, EXPLOSIVE_BLOAT_LIGHT, 0, MA_DF_ON_DEATH, MONST_SUBMERGES, 0,
         "A rare mutation will cause $HIMHER to explode violently when $HESHE dies."},
